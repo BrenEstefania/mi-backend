@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 version: '3.9'
 
 services:
   backend:
     build: ./backend
     ports:
+=======
+version: '3.9'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+>>>>>>> 9977248fa004c1c3b7c2868628ed6f77bb7449f8
       - "3000:3000"
